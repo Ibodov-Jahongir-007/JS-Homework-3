@@ -2,8 +2,8 @@
 let arr = ["peach", "Apple", "banana", "apricot", "kiwi", "orange", "ananas"]
 let filterArr = arr.filter(item => item[0].toLowerCase() === 'a')
 let arrLength = arr.reduce((first, second) => first + second.length,0)
-//let pushArr = prompt("Add a word to massive")
-//zarr.push(pushArr)
+let pushArr = prompt("Add a word to massive")
+arr.push(pushArr)
 console.log("Первое задание");
 console.log("Arr length (not length of elem)",arrLength);
 console.log(arr);
